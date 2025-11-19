@@ -1,0 +1,6 @@
+-r requirements/framework.txt
+trl==0.17.0
+ms_swift==3.4.0
+transformers==4.49.0
+vllm==0.8.0
+math_verify
