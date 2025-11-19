@@ -237,7 +237,7 @@ globe/
 
 ## 📄 Citation
 
-If you use Globe in your research, please cite our paper:
+If you use GLOBE in your research, please cite our paper:
 
 ```bibtex
 @inproceedings{globe2025,
