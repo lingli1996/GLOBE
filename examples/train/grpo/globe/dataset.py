@@ -21,8 +21,8 @@ class GeoLocRMmodelPreprocessor(ResponsePreprocessor):
 
 register_dataset(
     DatasetMeta(
-        ms_dataset_id='geo_loc_rm_en_55k',
-        hf_dataset_id='geo_loc_rm_en_55k',
+        ms_dataset_id='geo_loc_rm_20w',
+        hf_dataset_id='geo_loc_rm_20w',
         preprocess_func=GeoLocRMmodelPreprocessor(),
         tags=['geo', 'vision', 'reward']))
 
@@ -49,7 +49,7 @@ class GeoLocEn2Preprocessor(ResponsePreprocessor):
 
 register_dataset(
     DatasetMeta(
-        ms_dataset_id='geo_loc_62k_en_entity',
-        hf_dataset_id='geo_loc_62k_en_entity',
+        ms_dataset_id='mp16-reason-train',
+        hf_dataset_id='mp16-reason-train',
         preprocess_func=GeoLocEn2Preprocessor(),
         tags=['qa', 'geo', 'vision', 'grpo']))
