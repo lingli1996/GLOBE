@@ -36,7 +36,7 @@ git clone https://huggingface.co/globe-project/GLOBE-Qwen2.5VL-7B
 git clone https://huggingface.co/globe-project/GLOBE-InternVL3-8B
 ```
 
-We recommend you deploying GLOBE with the vLLM framework for efficient inference, for example:
+We recommend you deploying GLOBE with the vLLM framework (**v0.8.5**) for efficient inference, for example:
 
 ```bash
 CUDA_VISIBLE_DEVICES=0 \
